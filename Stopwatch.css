@@ -1,0 +1,52 @@
+.stopwatch {
+    text-align: center;
+    margin:220px auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position:center ;
+    background-image: url("https://motionarray.imgix.net/preview-128704-ziC6xHGwhm-high_0003.jpg?w=660&q=60&fit=max&auto=format");
+}
+.display {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.buttons {
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ 
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#button-start {
+    background-color: green;
+    color: white;
+    
+}
+
+#button-stop {
+    background-color: orange;
+    color: white;
+
+}
+
+#button-reset {
+    background-color: gray;
+    color: white;
+}
